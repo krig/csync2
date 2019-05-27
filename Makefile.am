@@ -40,7 +40,7 @@ CLEANFILES = cfgfile_parser.c cfgfile_parser.h cfgfile_scanner.c	\
 
 DISTCLEANFILES = config.status config.h .deps/*.Po stamp-h1 Makefile Makefile.in configure
 
-docfiles = ChangeLog README.adoc AUTHORS.adoc doc/csync2.adoc
+docfiles = ChangeLog README.adoc AUTHORS.adoc doc/csync2.adoc COPYING
 
 doc_DATA = $(docfiles)
 dist_doc_DATA = $(docfiles)
